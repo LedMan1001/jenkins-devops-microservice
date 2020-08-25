@@ -18,7 +18,8 @@ pipeline {
 	        echo "Integration" 
 	    }
         }
-    } post {
+    } 
+    post {
         always {
             echo "always"
         }
